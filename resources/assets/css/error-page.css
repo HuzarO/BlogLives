@@ -1,0 +1,35 @@
+.error-page {
+	padding-top: 0;
+}
+
+.error-page > div {
+	padding-top: 0 !important;
+}
+
+.error-page > div > h1 {
+	font-size: 8em;
+	text-align: center;
+	margin-top: 0;
+}
+
+.error-page > div > h2 {
+	font-size: 2.2em;
+	text-align: center;
+	color: #2f3c4e;
+}
+
+.error-page > div > a {
+	width: 30%;
+	height: 40px;
+	display: block;
+	color: #ffffff;
+	background-color: #e74c3c;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+.error-page > div > a:hover {
+	background-color: #2f3c4e;
+}

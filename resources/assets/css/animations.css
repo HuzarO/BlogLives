@@ -1,0 +1,180 @@
+@-webkit-keyframes
+toLeftFromRight {
+	49% {
+		-webkit-transform:translate(-100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		-webkit-transform:translate(100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@-moz-keyframes
+toLeftFromRight {
+	49% {
+		-moz-transform:translate(-100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		-moz-transform:translate(100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@keyframes
+toLeftFromRight {
+	49% {
+		transform:translate(-100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		transform:translate(100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@-webkit-keyframes
+toRightFromLeft {
+	49% {
+		-webkit-transform:translate(100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		-webkit-transform:translate(-100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@-moz-keyframes
+toRightFromLeft {
+	49% {
+		-moz-transform:translate(100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		-moz-transform:translate(-100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@keyframes
+toRightFromLeft {
+	49% {
+		transform:translate(100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		transform:translate(-100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@-webkit-keyframes
+toTopFromBottom {
+	49% {
+		-webkit-transform:translateY(-100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		-webkit-transform:translateY(100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@-moz-keyframes
+toTopFromBottom {
+	49% {
+		-moz-transform:translateY(-100%);
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		-moz-transform:translateY(100%);
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@keyframes
+toTopFromBottom {
+	49% {
+		transform:translateY(-100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		transform:translateY(100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@-webkit-keyframes
+toBottomFromTop {
+	49% {
+		-webkit-transform:translateY(100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		-webkit-transform:translateY(-100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@-moz-keyframes
+toBottomFromTop {
+	49% {
+		-moz-transform:translateY(100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		-moz-transform:translateY(-100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
+@keyframes
+toBottomFromTop {
+	49% {
+		transform:translateY(100%)
+	}
+	50% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		transform:translateY(-100%)
+	}
+	51% {
+		opacity:1;
+		filter:alpha(opacity=100)
+	}
+}
