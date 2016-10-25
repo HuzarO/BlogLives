@@ -15,8 +15,8 @@ require('laravel-elixir-livereload');
  */
 
 elixir(function(mix) {
-	mix.copy('./node_modules/font-awesome/fonts', './public/fonts/font-awesome')
-		.copy('./node_modules/bootstrap/dist/fonts', './public/fonts/bootstrap');
+	mix.copy(['./node_modules/font-awesome/fonts'], './public/fonts/font-awesome')
+		.copy(['./node_modules/bootstrap/dist/fonts'], './public/fonts/bootstrap');
 
     mix.scripts([
         './node_modules/jquery/dist/jquery.min.js',
